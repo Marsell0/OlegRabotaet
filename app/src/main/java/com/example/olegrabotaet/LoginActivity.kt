@@ -23,7 +23,7 @@ class LoginActivity : AppCompatActivity() {
         val password = findViewById<EditText>(R.id.passwordTextBox).text.toString()
         //Проверяем логин и пароль на пустоту
         if (login.isNotEmpty() && password.isNotEmpty()) {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, ListActivity::class.java)
             startActivity(intent)
         } else {
             Toast.makeText(this, "Оба поля должны быть заполнены", Toast.LENGTH_SHORT).show()

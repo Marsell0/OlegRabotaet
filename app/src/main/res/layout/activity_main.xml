@@ -49,8 +49,8 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:hint="login"
-        android:textColor="@color/main_color"
         android:textColorHint="@color/main_color"
+        android:textColor="@color/white"
         android:backgroundTint="@color/main_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,15 +60,15 @@
         app:layout_constraintVertical_bias="0.148" />
 
     <EditText
-        android:textColor="@color/main_color"
+        android:textColor="@color/white"
         android:id="@+id/passwordTextBox"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:backgroundTint="@color/main_color"
         android:hint="password"
-        android:inputType="numberPassword"
         android:textColorHint="@color/main_color"
+        android:inputType="numberPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginTextBox" />

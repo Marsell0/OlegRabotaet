@@ -9,5 +9,7 @@
     <color name="white">#FFFFFF</color>
     <color name="bg_color">#302C2C</color>
     <color name="main_color">#419595</color>
+    <color name="bg_color_light">#567774</color>
+    <color name="main_color_light">#419595</color>
 
 </resources>

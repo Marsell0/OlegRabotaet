@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".ListActivity">
+
+    <TextView
+        android:id="@+id/welcome_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:gravity="center_horizontal"
+        android:textColor="@color/main_color"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Добро пожаловать!" />
+
+    <GridLayout
+        android:id="@+id/grid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:useDefaultMargins="true"
+        android:columnCount="2" >
+
+
+        <FrameLayout
+            android:id="@+id/bt_azza"
+            android:layout_gravity="left"
+            android:background="@drawable/ic_launcher_foreground">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_pc_azza" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Azza"
+                    android:textSize="17sp"
+                    android:textColor="@color/main_color"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/bt_corsair"
+            android:layout_gravity="right"
+            android:background="@drawable/ic_launcher_foreground">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_pc_corsair" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Corsair"
+                    android:textSize="17sp"
+                    android:textColor="@color/main_color"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/bt_coolermaster"
+            android:layout_gravity="left"
+            android:background="@drawable/ic_launcher_foreground">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_pc_coolermaster" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="CoolerMaster"
+                    android:textSize="17sp"
+                    android:textColor="@color/main_color"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/bt_ironside"
+            android:layout_gravity="right"
+            android:background="@drawable/ic_launcher_foreground">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_pc_ironside" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="IronSide"
+                    android:textSize="17sp"
+                    android:textColor="@color/main_color"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/bt_mac"
+            android:layout_gravity="left"
+            android:background="@drawable/ic_launcher_foreground">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_pc_mac"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Imac"
+                    android:textSize="17sp"
+                    android:textColor="@color/main_color"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/bt_mfcom"
+            android:layout_gravity="right"
+            android:background="@drawable/ic_launcher_foreground">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_pc_mfcom"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Mfcom"
+                    android:textSize="17sp"
+                    android:textColor="@color/main_color"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </FrameLayout>
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
