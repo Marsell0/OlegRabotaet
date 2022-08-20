@@ -14,30 +14,30 @@ class ListActivity : AppCompatActivity() {
     }
     private fun launchScreen() {
 //Получаем login переданный по ключу "loginKey"
-        val login = intent.getStringExtra("loginKey")
-        findViewById<FrameLayout>(R.id.bt_azza).setOnClickListener {
+        findViewById<FrameLayout>(R.id.bt_supercomp).setOnClickListener {
+            val intent = Intent(this, ComputerActivity::class.java)
+            intent.putExtra("picture",R.drawable.supercomp)
+            startActivity(intent)
+        }
+        findViewById<FrameLayout>(R.id.bt_supercomp2).setOnClickListener {
             val intent = Intent(this, ComputerActivity::class.java)
             startActivity(intent)
         }
-        findViewById<FrameLayout>(R.id.bt_corsair).setOnClickListener {
-            val intent = Intent(this, ComputerActivity::class.java)
-            startActivity(intent)
-        }
-        findViewById<FrameLayout>(R.id.bt_coolermaster).setOnClickListener {
-            val intent = Intent(this, ComputerActivity::class.java)
-            startActivity(intent)
-        }
-        findViewById<FrameLayout>(R.id.bt_ironside).setOnClickListener {
-            val intent = Intent(this, ComputerActivity::class.java)
-            startActivity(intent)
-        }
-        findViewById<FrameLayout>(R.id.bt_mac).setOnClickListener {
-            val intent = Intent(this, ComputerActivity::class.java)
-            startActivity(intent)
-        }
-        findViewById<FrameLayout>(R.id.bt_mfcom).setOnClickListener {
-            val intent = Intent(this, ComputerActivity::class.java)
-            startActivity(intent)
-        }
+//        findViewById<FrameLayout>(R.id.bt_coolermaster).setOnClickListener {
+//            val intent = Intent(this, ComputerActivity::class.java)
+//            startActivity(intent)
+//        }
+//        findViewById<FrameLayout>(R.id.bt_ironside).setOnClickListener {
+//            val intent = Intent(this, ComputerActivity::class.java)
+//            startActivity(intent)
+//        }
+//        findViewById<FrameLayout>(R.id.bt_mac).setOnClickListener {
+//            val intent = Intent(this, ComputerActivity::class.java)
+//            startActivity(intent)
+//        }
+//        findViewById<FrameLayout>(R.id.bt_mfcom).setOnClickListener {
+//            val intent = Intent(this, ComputerActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 }

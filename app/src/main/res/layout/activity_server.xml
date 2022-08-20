@@ -12,7 +12,7 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_marginTop="4dp"
-        android:src="@drawable/supercomp"
+        android:src="@drawable/cluster"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,8 +35,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Мощность - 29,899 МВт \n Оперативная память НВМ2 32 ГиБ/узел
-         \n Производительность 442,010 петафлопс "
+        android:text=" Процессор - 2 x Xeon E5 2.4-3.1ГГц (16 ядер)  \n Оперативная память - 128Гб RAM
+         \n Диски - 1x8000Гб HDD "
         android:textSize="18sp"
         android:textColor="@color/main_color"
         app:layout_constraintBottom_toTopOf="@+id/radioGroup"
@@ -68,7 +68,7 @@
         <RadioButton
             android:layout_width="200dp"
             android:layout_height="50dp"
-            android:text="1 месяц - 100,000 рублей"
+            android:text="1 месяц - 30,000 рублей"
             android:textSize="18sp"
             android:textColor="@color/main_color" />
 
@@ -76,14 +76,14 @@
             android:textSize="18sp"
             android:layout_width="200dp"
             android:layout_height="50dp"
-            android:text="6 месяцев - 550,000 рублей"
+            android:text="6 месяцев - 130,000 рублей"
             android:textColor="@color/main_color" />
 
         <RadioButton
             android:textSize="18sp"
             android:layout_width="200dp"
             android:layout_height="50dp"
-            android:text="1 год - 999,999 рублей"
+            android:text="1 год - 312,000 рублей"
             android:textColor="@color/main_color" />
 
     </RadioGroup>

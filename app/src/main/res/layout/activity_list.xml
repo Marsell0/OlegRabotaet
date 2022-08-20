@@ -33,7 +33,7 @@
 
 
         <FrameLayout
-            android:id="@+id/bt_azza"
+            android:id="@+id/bt_supercomp"
             android:layout_gravity="left"
             android:background="@drawable/ic_launcher_foreground">
 
@@ -45,12 +45,12 @@
                     android:layout_width="125dp"
                     android:layout_height="125dp"
                     android:layout_margin="10dp"
-                    android:src="@drawable/ic_pc_azza" />
+                    android:src="@drawable/supercomp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:text="Azza"
+                    android:text="Суперкомпьютер \n            '0l3g'"
                     android:textSize="17sp"
                     android:textColor="@color/main_color"
                     android:layout_gravity="center_horizontal"/>
@@ -58,7 +58,7 @@
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/bt_corsair"
+            android:id="@+id/bt_supercomp2"
             android:layout_gravity="right"
             android:background="@drawable/ic_launcher_foreground">
             <LinearLayout
@@ -69,12 +69,12 @@
                     android:layout_width="125dp"
                     android:layout_height="125dp"
                     android:layout_margin="10dp"
-                    android:src="@drawable/ic_pc_corsair" />
+                    android:src="@drawable/supercomp2" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:text="Corsair"
+                    android:text="Суперкомпьютер \n     'Челябинск'"
                     android:textSize="17sp"
                     android:textColor="@color/main_color"
                     android:layout_gravity="center_horizontal"/>
@@ -82,7 +82,7 @@
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/bt_coolermaster"
+            android:id="@+id/bt_server1"
             android:layout_gravity="left"
             android:background="@drawable/ic_launcher_foreground">
             <LinearLayout
@@ -93,12 +93,12 @@
                     android:layout_width="125dp"
                     android:layout_height="125dp"
                     android:layout_margin="10dp"
-                    android:src="@drawable/ic_pc_coolermaster" />
+                    android:src="@drawable/cluster" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:text="CoolerMaster"
+                    android:text="Xeon E5 2665"
                     android:textSize="17sp"
                     android:textColor="@color/main_color"
                     android:layout_gravity="center_horizontal"/>
@@ -117,12 +117,12 @@
                     android:layout_width="125dp"
                     android:layout_height="125dp"
                     android:layout_margin="10dp"
-                    android:src="@drawable/ic_pc_ironside" />
+                    android:src="@drawable/cluster2" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:text="IronSide"
+                    android:text="Xeon E3"
                     android:textSize="17sp"
                     android:textColor="@color/main_color"
                     android:layout_gravity="center_horizontal"/>
